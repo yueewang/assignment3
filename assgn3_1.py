@@ -15,7 +15,6 @@ lon = nc.variables['longitude'][:]
 lat = nc.variables['latitude'][:]
 
 
-
 m = Basemap(llcrnrlat=-50.,llcrnrlon=-179.9,\
             urcrnrlat= 50,urcrnrlon=179.9,\
             projection='mill',resolution = 'l')
